@@ -1,0 +1,32 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="using:GridItemsPanelWithDataTemplate.Themes">
+
+    <DataTemplate x:Key="RectangleDataTemplate">
+        <Border Width="{Binding Width}"
+                Height="{Binding Height}"
+                Background="SkyBlue">
+        </Border>
+    </DataTemplate>
+
+    <DataTemplate x:Key="ImageDataTemplate">
+        <Border>
+            <Image Source="{Binding ImageSource}"
+                   Stretch="UniformToFill"
+                   Margin="6" 
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"/>
+        </Border>
+    </DataTemplate>
+
+    <DataTemplate x:Key="TextDataTemplate">
+        <Border>
+            <TextBlock Text="{Binding Text}"
+                       TextWrapping="Wrap"
+                       Foreground="Black"
+                       Margin="6"
+                       FontSize="20"/>
+        </Border>
+    </DataTemplate>
+
+</ResourceDictionary>

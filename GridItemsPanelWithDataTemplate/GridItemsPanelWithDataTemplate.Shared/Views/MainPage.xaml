@@ -1,0 +1,28 @@
+﻿<Page x:Class="GridItemsPanelWithDataTemplate.Views.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:GridItemsPanelWithDataTemplate"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:controls="using:GridItemsPanelWithDataTemplate.Controls"
+      mc:Ignorable="d">
+
+    <Page.Resources>
+        <controls:DataObjectTemplateSelector  x:Key="DataObjectTemplateSelector"
+                                              ImageTemplate="{StaticResource ImageDataTemplate}"
+                                              ShapeTemplate="{StaticResource RectangleDataTemplate}"
+                                              TextTemplate="{StaticResource TextDataTemplate}"/>        
+    </Page.Resources>
+
+    <Grid Background="White">
+        <controls:GridAwareItemsControl ItemsSource="{Binding DataObjectCollection}"
+                                        ItemTemplateSelector="{StaticResource DataObjectTemplateSelector}">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Grid controls:GridAutoLayout.NumberOfRows="{Binding TotalRows}"
+                          controls:GridAutoLayout.NumberOfColumns="{Binding TotalColumns}" />
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+        </controls:GridAwareItemsControl>
+    </Grid>
+</Page>

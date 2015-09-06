@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GridItemsPanelWithDataTemplate", "GridItemsPanelWithDataTemplate", "{579DB1AB-E2D6-4079-B21A-DB4518443C9C}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "GridItemsPanelWithDataTemplate.Shared", "GridItemsPanelWithDataTemplate\GridItemsPanelWithDataTemplate.Shared\GridItemsPanelWithDataTemplate.Shared.shproj", "{0AB9C6E6-F206-4417-83EB-C36F37D49DB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridItemsPanelWithDataTemplate.Windows", "GridItemsPanelWithDataTemplate\GridItemsPanelWithDataTemplate.Windows\GridItemsPanelWithDataTemplate.Windows.csproj", "{85AF1E44-2A7E-40A8-94DA-A4BA3189FF00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridItemsPanelWithDataTemplate.WindowsPhone", "GridItemsPanelWithDataTemplate\GridItemsPanelWithDataTemplate.WindowsPhone\GridItemsPanelWithDataTemplate.WindowsPhone.csproj", "{286E3A4B-0172-441C-ABC4-3ECEC44CC712}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		GridItemsPanelWithDataTemplate\GridItemsPanelWithDataTemplate.Shared\GridItemsPanelWithDataTemplate.Shared.projitems*{85af1e44-2a7e-40a8-94da-a4ba3189ff00}*SharedItemsImports = 4
+		GridItemsPanelWithDataTemplate\GridItemsPanelWithDataTemplate.Shared\GridItemsPanelWithDataTemplate.Shared.projitems*{286e3a4b-0172-441c-abc4-3ecec44cc712}*SharedItemsImports = 4
+		GridItemsPanelWithDataTemplate\GridItemsPanelWithDataTemplate.Shared\GridItemsPanelWithDataTemplate.Shared.projitems*{0ab9c6e6-f206-4417-83eb-c36f37d49db1}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85AF1E44-2A7E-40A8-94DA-A4BA3189FF00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85AF1E44-2A7E-40A8-94DA-A4BA3189FF00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85AF1E44-2A7E-40A8-94DA-A4BA3189FF00}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{85AF1E44-2A7E-40A8-94DA-A4BA3189FF00}.Debug|ARM.ActiveCfg = Debug|ARM
+		{85AF1E44-2A7E-40A8-94DA-A4BA3189FF00}.Debug|ARM.Build.0 = Debug|ARM
+		{85AF1E44-2A7E-40A8-94DA-A4BA3189FF00}.Debug|ARM.Deploy.0 = Debug|ARM
+		{85AF1E44-2A7E-40A8-94DA-A4BA3189FF00}.Debug|x64.ActiveCfg = Debug|x64
+		{85AF1E44-2A7E-40A8-94DA-A4BA3189FF00}.Debug|x64.Build.0 = Debug|x64
+		{85AF1E44-2A7E-40A8-94DA-A4BA3189FF00}.Debug|x64.Deploy.0 = Debug|x64
+		{85AF1E44-2A7E-40A8-94DA-A4BA3189FF00}.Debug|x86.ActiveCfg = Debug|x86
+		{85AF1E44-2A7E-40A8-94DA-A4BA3189FF00}.Debug|x86.Build.0 = Debug|x86
+		{85AF1E44-2A7E-40A8-94DA-A4BA3189FF00}.Debug|x86.Deploy.0 = Debug|x86
+		{85AF1E44-2A7E-40A8-94DA-A4BA3189FF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85AF1E44-2A7E-40A8-94DA-A4BA3189FF00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85AF1E44-2A7E-40A8-94DA-A4BA3189FF00}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{85AF1E44-2A7E-40A8-94DA-A4BA3189FF00}.Release|ARM.ActiveCfg = Release|ARM
+		{85AF1E44-2A7E-40A8-94DA-A4BA3189FF00}.Release|ARM.Build.0 = Release|ARM
+		{85AF1E44-2A7E-40A8-94DA-A4BA3189FF00}.Release|ARM.Deploy.0 = Release|ARM
+		{85AF1E44-2A7E-40A8-94DA-A4BA3189FF00}.Release|x64.ActiveCfg = Release|x64
+		{85AF1E44-2A7E-40A8-94DA-A4BA3189FF00}.Release|x64.Build.0 = Release|x64
+		{85AF1E44-2A7E-40A8-94DA-A4BA3189FF00}.Release|x64.Deploy.0 = Release|x64
+		{85AF1E44-2A7E-40A8-94DA-A4BA3189FF00}.Release|x86.ActiveCfg = Release|x86
+		{85AF1E44-2A7E-40A8-94DA-A4BA3189FF00}.Release|x86.Build.0 = Release|x86
+		{85AF1E44-2A7E-40A8-94DA-A4BA3189FF00}.Release|x86.Deploy.0 = Release|x86
+		{286E3A4B-0172-441C-ABC4-3ECEC44CC712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{286E3A4B-0172-441C-ABC4-3ECEC44CC712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{286E3A4B-0172-441C-ABC4-3ECEC44CC712}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{286E3A4B-0172-441C-ABC4-3ECEC44CC712}.Debug|ARM.ActiveCfg = Debug|ARM
+		{286E3A4B-0172-441C-ABC4-3ECEC44CC712}.Debug|ARM.Build.0 = Debug|ARM
+		{286E3A4B-0172-441C-ABC4-3ECEC44CC712}.Debug|ARM.Deploy.0 = Debug|ARM
+		{286E3A4B-0172-441C-ABC4-3ECEC44CC712}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{286E3A4B-0172-441C-ABC4-3ECEC44CC712}.Debug|x64.Build.0 = Debug|Any CPU
+		{286E3A4B-0172-441C-ABC4-3ECEC44CC712}.Debug|x64.Deploy.0 = Debug|Any CPU
+		{286E3A4B-0172-441C-ABC4-3ECEC44CC712}.Debug|x86.ActiveCfg = Debug|x86
+		{286E3A4B-0172-441C-ABC4-3ECEC44CC712}.Debug|x86.Build.0 = Debug|x86
+		{286E3A4B-0172-441C-ABC4-3ECEC44CC712}.Debug|x86.Deploy.0 = Debug|x86
+		{286E3A4B-0172-441C-ABC4-3ECEC44CC712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{286E3A4B-0172-441C-ABC4-3ECEC44CC712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{286E3A4B-0172-441C-ABC4-3ECEC44CC712}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{286E3A4B-0172-441C-ABC4-3ECEC44CC712}.Release|ARM.ActiveCfg = Release|ARM
+		{286E3A4B-0172-441C-ABC4-3ECEC44CC712}.Release|ARM.Build.0 = Release|ARM
+		{286E3A4B-0172-441C-ABC4-3ECEC44CC712}.Release|ARM.Deploy.0 = Release|ARM
+		{286E3A4B-0172-441C-ABC4-3ECEC44CC712}.Release|x64.ActiveCfg = Release|Any CPU
+		{286E3A4B-0172-441C-ABC4-3ECEC44CC712}.Release|x64.Build.0 = Release|Any CPU
+		{286E3A4B-0172-441C-ABC4-3ECEC44CC712}.Release|x64.Deploy.0 = Release|Any CPU
+		{286E3A4B-0172-441C-ABC4-3ECEC44CC712}.Release|x86.ActiveCfg = Release|x86
+		{286E3A4B-0172-441C-ABC4-3ECEC44CC712}.Release|x86.Build.0 = Release|x86
+		{286E3A4B-0172-441C-ABC4-3ECEC44CC712}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0AB9C6E6-F206-4417-83EB-C36F37D49DB1} = {579DB1AB-E2D6-4079-B21A-DB4518443C9C}
+		{85AF1E44-2A7E-40A8-94DA-A4BA3189FF00} = {579DB1AB-E2D6-4079-B21A-DB4518443C9C}
+		{286E3A4B-0172-441C-ABC4-3ECEC44CC712} = {579DB1AB-E2D6-4079-B21A-DB4518443C9C}
+	EndGlobalSection
+EndGlobal
