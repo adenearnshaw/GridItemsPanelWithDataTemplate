@@ -1,2 +1,2 @@
 # GridItemsPanelWithDataTemplate
-Demo application with a ListView using a Grid as the ItemsPanelTemplate
+Demo application to illustrate the binding of an ItemsControl using a Grid as the ItemsPanelTemplate, using a DataTemplateSelector.
